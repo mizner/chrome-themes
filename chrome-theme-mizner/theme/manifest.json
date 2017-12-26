@@ -1,0 +1,65 @@
+{
+    "description": "Theme for Mizner", // @link: https://sites.google.com/site/gsugsa/google-apps/google-chrome/how-to-create-a-theme
+    "manifest_version": 2,
+    "version": "0.1",
+    "name": "mizner theme",
+    "icons": {
+        // "128": "icon-128.png"
+    },
+    "theme": {
+        "images": {
+            // "theme_frame": "", // 1 The frame of the chrome browser/the area that is behind the tabs. ∞ x 80
+            // "theme_frame_inactive": "", // 1. 1  The same area as above, only that this represents the inactive state. 
+            // "theme_frame_incognito": "", // 1. 2  The same area under the incognito mode, when the window is active 
+            // "theme_frame_incognito_inactive": "", // 1. 3  The same area but in the incognito mode, when the window is inactive. 
+            // "theme_toolbar": "", // 2 This represents both the current tab and the toolbar together ∞ x 120
+            // "theme_tab_background": "", // 3 This is the area that covers the tabs that are not active ∞ x 65
+            // "theme_tab_background_incognito": "", // 3. 1  The same thing as above, but used for the incognito mode  
+            // "theme_tab_background_v": "", // 4 (Not yet confirmed) The tab background for something! 
+            // "theme_ntp_background": "", // 5 This is the theme's inner background-the large white space is covered by this Recommended Minimum Size for images 800 x 600
+            // "theme_frame_overlay": "", // 6 This is the image that appears at the top left of the frame 1100 x 40
+            // "theme_frame_overlay_inactive": "", // 6. 1  Same as above but displayed when window is inactive 
+            // "theme_button_background": "", // 7 This is the area that covers the toolbar buttons  30 x 30
+            // "theme_ntp_attribution": "", // 8 This is the image that will be displayed in the 'theme created by' section  
+            // "theme_window_control_background": "", // 9 The background for the window control buttons (close, maximize, etc.,)  
+            // "ntp_section_link": "", // 14. 7 The color of the links that appear in the section area  
+            // "ntp_section_link_underline": "", // 14. 8 The color of underline of links in the section area 
+            // "control_background": "", // 15  Unconfirmed yet-The color of the window control buttons (close, maximize, etc.) 
+            // "button_background": "", // 16  The background color of all the toolbar buttons 
+        },
+        "colors": {
+            "frame": [41, 128, 185], // The color of the frame, that covers the smaller outer frame  
+            "frame_inactive": [52, 152, 219], // The color of the same element, but in inactive mode 
+            "frame_incognito": [192, 57, 43], // The color of the same element, but in incognito mode 
+            "frame_incognito_inactive": [52, 152, 219], // The color of the same element, but in incognito, inactive mode  
+            "toolbar": [52, 152, 219], // The color of the toolbar background (visible by pressing Ctrl+B) 
+            "tab_text": [255, 255, 255], // The color of text, in the title of current tab  
+            "tab_background_text": [236, 240, 241], // The color of text, in the title of all inactive tabs 
+            "bookmark_text": [255, 255, 255], // The color of the bookmark element's text 
+            "ntp_background": [44, 62, 80], // The theme's inner background color  
+            "ntp_text": [255, 255, 255], // The color of all the text that comes in the inner background area 
+            "ntp_link": [255, 255, 255], // The color of the links that appear in the background area 
+            "ntp_link_underline": [255, 255, 255], // The color of the underline of all links in the background area  
+            "ntp_header": [52, 152, 219], // The color of the section frames when mouse over 
+            "ntp_section": [52, 152, 219], // The color of Recently closed tabs area's bg and frame of quick links 
+            "ntp_section_text": [255, 255, 255], // The color of text in the section  
+            "ntp_section_link": [255, 255, 255], // The color of the links that appear in the section area  
+            "ntp_section_link_underline": [255, 255, 255], // The color of underline of links in the section area 
+            "control_background": [52, 152, 219], // Unconfirmed yet-The color of the window control buttons (close, maximize, etc.) 
+            "button_background": [52, 152, 219] // The background color of all the toolbar buttons  
+        },
+        "tints": {
+            "buttons": [192, 57, 43], // The color tint that can be applied to various buttons in chrome  
+            "frame": [192, 57, 43], // The color tint that can be applied to the frame of chrome  
+            "frame_inactive": [-1, -1, 0.75], // The color tint that is applied when the chrome window is inactive  
+            "frame_incognito": [-1, 0.2, 0.35], // The color tint to the frame-in incognito mode  
+            "frame_incognito_inactive": [1, 1, 1], // Same as above, but when the window is inactive (and in incognito mode)  
+            "background_tab": [-1, 0.5, 0.75] // The color tint of the inactive tabs in incognito mode  
+        },
+        "properties": {
+            "ntp_background_alignment": "top center", // The property that tells the alignment of the inner backrground image 
+            "ntp_background_repeat": "no-repeat", // This property specifies if the above background should be repeated 
+            "ntp_logo_alternate": 0 // This lets you select the type of google chrome header you want 
+        }
+    }
+}
